@@ -4,12 +4,12 @@ Problem was formulated by my friend, and look like that:
 
 On two sheets of paper, the casino randomly writes heads and tails in an infinite number with a probability of 0.5 for each value.
 For example, an entry on one of the sheets might look like this:
-1. About
-2. R
-3. R
-4. O
-5. O
-6. R
+1. Tail
+2. Head
+3. Tail
+4. Tail
+5. Head
+6. Tail
 etc.
 
 The casino then distributes these sheets to Player A and Player B (one sheet for each player).
