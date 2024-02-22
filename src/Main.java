@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Casino casino = Casino.getInstance();
+        System.out.println(casino.getNewListOfTosses());
     }
 }
