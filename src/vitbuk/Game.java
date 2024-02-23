@@ -1,4 +1,8 @@
-import strategies.TwoPlayersStrategy;
+package vitbuk;
+
+import java.Casino;
+
+import vitbuk.strategies.TwoPlayersStrategy;
 
 public class Game {
     private Casino casino;
