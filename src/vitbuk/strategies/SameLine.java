@@ -15,7 +15,7 @@ public class SameLine implements TwoPlayersStrategy {
         int randNumber = random.nextInt(Constants.coinTossAmount);
         playerA.setGuess(randNumber);
         playerB.setGuess(randNumber);
-        
+
     };
 
 }
