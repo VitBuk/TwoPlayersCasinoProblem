@@ -48,6 +48,6 @@ public class Game {
     }
 
     public void executeStrategy() {
-        strategy.execute();
+        strategy.execute(playerA, playerB);
     }
 }

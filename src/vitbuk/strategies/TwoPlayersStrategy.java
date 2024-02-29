@@ -1,5 +1,7 @@
 package vitbuk.strategies;
 
+import vitbuk.Player;
+
 public interface TwoPlayersStrategy {
-    void execute();
+    public void execute(Player playerA, Player playerB);
 }
