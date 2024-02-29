@@ -1,7 +1,8 @@
 package vitbuk.strategies;
 
+import vitbuk.Casino;
 import vitbuk.Player;
 
 public interface TwoPlayersStrategy {
-    public void execute(Player playerA, Player playerB);
+    public void execute(Casino casino, Player playerA, Player playerB);
 }
