@@ -22,4 +22,9 @@ public final class Casino {
 
         return listOfTosses;
     }
+
+    public boolean checkResult (Player playerA, Player playerB){
+        return playerA.getCurrentList().get(playerB.getGuess())
+                .equals(playerB.getCurrentList().get(playerA.getGuess()));
+    }
 }

@@ -5,6 +5,7 @@ import vitbuk.Casino;
 import vitbuk.Constants;
 import vitbuk.Player;
 
+import java.util.List;
 import java.util.Random;
 
 public class SameLine implements TwoPlayersStrategy {
