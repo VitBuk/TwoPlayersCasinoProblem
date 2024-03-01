@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class SameLine implements TwoPlayersStrategy {
 
-    public void execute(Casino casino, Player playerA, Player playerB){
+    public boolean isPlusStrategy(Casino casino, Player playerA, Player playerB){
         Random random = new Random();
         int randNumber;
         int rightAmount = 0;
@@ -28,6 +28,8 @@ public class SameLine implements TwoPlayersStrategy {
 
         System.out.println("Right amount: " + rightAmount);
         System.out.println("Wrong amount: " + wrongAmount);
+
+        return rightAmount > wrongAmount;
     };
 
 }

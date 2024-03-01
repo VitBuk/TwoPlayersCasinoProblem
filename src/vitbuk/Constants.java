@@ -6,4 +6,5 @@ public class Constants {
     public static final String tail = "TAIL";
 
     public static final int simulationAmount = 10000;
+    public static final int gameSimulationAmount = 100;
 }

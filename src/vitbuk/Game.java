@@ -48,6 +48,7 @@ public class Game {
     }
 
     public void executeStrategy() {
-        strategy.execute(casino, playerA, playerB);
+        strategy.isPlusStrategy(casino, playerA, playerB);
     }
+    public boolean isPlusStrategy() {return strategy.isPlusStrategy(casino, playerA, playerB);}
 }
