@@ -1,5 +1,6 @@
 package vitbuk;
 
+import vitbuk.strategies.FirstTail;
 import vitbuk.strategies.OddEven;
 import vitbuk.strategies.SameLine;
 import vitbuk.strategies.TwoPlayersStrategy;
@@ -15,7 +16,7 @@ public class Main {
         for (int i=0; i<Constants.gameSimulationAmount; i++) {
             Player playerA = new Player("Alex");
             Player playerB = new Player("Beth");
-            TwoPlayersStrategy strategy = new OddEven();
+            TwoPlayersStrategy strategy = new FirstTail();
             Game game = new Game(casino, playerA, playerB, strategy);
             if (game.isPlusStrategy()) plusStrategyCount++;
         }
